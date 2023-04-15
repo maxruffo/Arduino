@@ -3,8 +3,12 @@
 NFC
 
 ### Probleme:
-- Unten bei der Loop geht der Code einfach weiter wenn der Alarm ausgelöst wird 
+
+- Unten bei der Loop geht der Code einfach weiter wenn der Alarm ausgelöst wird
+- rote und grüne lampe scheinen Kaputt zu sein
+
 ### Lösung:
+
 - Ich könnte einen Ton abspielen und dann abchecken ob der Nfc Tag vorhanden ist, dann wieder Ton dann wieder Abchecken und das in einer Loop Schleife
 
 ### Probleme:

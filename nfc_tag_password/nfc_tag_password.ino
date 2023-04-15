@@ -8,9 +8,9 @@
 #define echoPin 6
 
 
-#define REDLIGHT_PIN 7
-#define WHITELIGHT_PIN 4
-#define GREENLIGHT_PIN 2
+#define REDLIGHT_PIN 4
+#define WHITELIGHT_PIN 5
+#define GREENLIGHT_PIN 3
 
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance.
 
@@ -150,7 +150,7 @@ bool checkNFC(){
     noTone(SPEAKER_PIN);
     delay(1000);
     //if the card is right
-    if (cardId == "5753974b") {
+    if (cardId == "5753974b" || cardId == "2a0c6180") {
       playSound(true);
       Serial.print("Welcome!");   
 
