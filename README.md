@@ -1,8 +1,8 @@
 # Arduino
 
 
-![Example image](images/image1.png)
-![Example image](images/image2.png)
+![Example image](images/image1.jpeg)
+![Example image](images/image2.jpeg)
 NFC
 
 ### Probleme:
